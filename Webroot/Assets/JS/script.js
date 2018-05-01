@@ -7,7 +7,7 @@ window.onkeydown = function (e) {
     plusDivs(1);
   }
 };
-var slideIndex = 0;
+var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
