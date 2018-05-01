@@ -1,4 +1,4 @@
-@import "base/base";
+@import "base/base.scss";
 
 body {
     width: 100%;
@@ -156,7 +156,7 @@ header {
 }
 
 .Greatest-work {
-    background-image: url("IMG/Greatest work/1.png");
+    background-image: url("webroot/assets/img/Greatest work/1.png");
     height: 420px;
     width: 100%;
     text-align: center;

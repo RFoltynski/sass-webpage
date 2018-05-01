@@ -72,8 +72,7 @@ ul {
   color: white;
   background-color: #ea5b58;
   border: none;
-  border-radius: 2px;
-  }
+  border-radius: 2px; }
 
 header {
   height: 760px; }
@@ -150,7 +149,7 @@ header {
     height: 36px; }
 
 .Greatest-work {
-  background-image: url("IMG/Greatest work/1.png");
+  background-image: url("webroot/assets/img/Greatest work/1.png");
   height: 420px;
   width: 100%;
   text-align: center;
@@ -381,7 +380,6 @@ footer {
 
 .w3-button-red {
   background-color: #161828;
-  color:white;
   border: none;
   width: 25px;
   height: 25px;
