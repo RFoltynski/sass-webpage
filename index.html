@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="Webroot/Assets/JS/scroll.js"></script>
+    <script src="Webroot/Assets/JS/scroll.js"></script>
     <link rel="stylesheet" href="Webroot/Assets/fontello/css/fontello.css" type="text/css" />
-    <script type="text/javascript" src="Webroot/Assets/JS/stickyNav.js"></script>
+    <script src="Webroot/Assets/JS/stickyNav.js"></script>
     <script src="Webroot/Assets/JS/jquery.scrollTo.min.js"></script>
     <script src="Webroot/Assets/JS/script.js"></script>
 </head>
@@ -19,7 +19,9 @@
     <header>
         <nav>
             <div class="logo">
-               <a href=#><b>Macan</b>Kumbang</a></div>
+                <a href=#>
+                    <b>Macan</b>Kumbang</a>
+            </div>
             <Ul>
                 <li>
                     <a class="link-1-home" href=#>Home</a>
@@ -34,7 +36,7 @@
                     <a class="link-4-Testimonials" href=#>Testimonials</a>
                 </li>
                 <li>
-                    <a class="link-5-Constact"href=#>Contact</a>
+                    <a class="link-5-Constact" href=#>Contact</a>
                 </li>
             </Ul>
 
@@ -78,7 +80,7 @@
             <div class="Our-Services-row">
                 <div class="Our-Services-content">
                     <div class="Our-Services-content-icon">
-                        <img src="Webroot/Assets/img/1.png" alt="serce" >
+                        <img src="Webroot/Assets/img/1.png" alt="serce">
                     </div>
                     <h3>Beautiful Design</h3>
                     <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin
@@ -271,6 +273,7 @@
                         <button class="w3-button" onclick="currentDiv(4)"></button>
                     </div>
                 </div>
+            </div>
         </section>
         <section class="Greatest-work">
             <h1>Get in Touch Width us</h1>
@@ -279,23 +282,7 @@
         <section>
 
             <div id="map"></div>
-            <script>
-                function initMap() {
-
-                    var uluru = {
-                        lat: 50.209167,
-                        lng: -5.490909
-                    };
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 15,
-                        center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                }
-            </script>
+            <script src="Webroot/Assets/JS/map.js"></script>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsjnAyxRQ2JZqtrjsvg4vxw899pUs_HP8&callback=initMap">
             </script>
         </section>
@@ -326,7 +313,7 @@
             </div>
             <div class="Contact-right">
                 <form>
-                    <input class="contact-right-input contact-right-name" type="name" placeholder="Name">
+                    <input class="contact-right-input contact-right-name" type="name" placeholder="usrname">
                     <input class="contact-right-input contact-right-mail" type="email" placeholder="E-mail (will not published)">
 
                     <textarea class="contact-right-text" name="text" placeholder="Message"></textarea>
